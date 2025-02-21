@@ -16,11 +16,6 @@ That's it! The script will generate slides based on the input.
 ## Prerequisites
 
 - Ensure Python is installed on your system.
-- Install any required dependencies by running:
-    ```bash
-    pip install -r requirements.txt
-    ```
-  (Add this section only if your project has a `requirements.txt` file.)
 
 ## Contributing
 

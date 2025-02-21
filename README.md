@@ -1,6 +1,6 @@
 # Quick Start
 
-This project allows you to quickly generate slides based on a given paper title.
+This project is a tool for ***traditional performing arts*** in MEDIAN Lab, which allows you to quickly generate slides based on a given paper title.
 
 ## Steps to Generate Slides
 

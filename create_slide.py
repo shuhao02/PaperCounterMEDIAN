@@ -113,7 +113,7 @@ class SlideCreator():
 
 
 if __name__ == "__main__":
-    paper_title = "Transfer Metric Learning with Semi-Supervised Extension"
+    paper_title = "Multilabel Relationship Learning"
     default_fomat = "Yao et al. 2019" # default apa
     get_paper_basic_info.get_paper_citations(paper_title)
     author_info = get_author_home_page.AuthorInfo(paper_title, 0)

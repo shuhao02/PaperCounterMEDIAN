@@ -57,7 +57,7 @@ class AuthorInfo():
 
     def get_author_from_google(self):
         url = "https://google.serper.dev/search"
-        api_key = "a1f470d55d842848c8f9e090b1bd549734f35d05" # update the key
+        api_key = "" # update the key
         for i, e in tqdm(enumerate(self.authors[:self.limit])):
             author_name = e['name']
             query = f"homepage of {author_name}, a researcher on computer science"

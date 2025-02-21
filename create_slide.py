@@ -11,12 +11,12 @@ class SlideCreator():
         self.paper_title = paper_title
         self.default_format = default_format
         basic_info_file = f"./data/{self.paper_title}_step1.json"
-        with open(basic_info_file) as f:
+        with open(basic_info_file, encoding='utf-8') as f:
             papers = json.load(f)
 
         author_info_file = f"./data/{self.paper_title}_authors.json"
         research_homepage_dict = {}
-        with open(author_info_file) as f:
+        with open(author_info_file, encoding='utf-8') as f:
             authors = json.load(f)
         for author in authors:
             author_id = author['author_id']
@@ -113,7 +113,7 @@ class SlideCreator():
 
 
 if __name__ == "__main__":
-    paper_title = "Gradual Domain Adaptation via Gradient Flow"
+    paper_title = "Learning Tree Structure in Multi-Task Learning"
     default_fomat = "Yao et al. 2019" # default apa
     get_paper_basic_info.get_paper_citations(paper_title)
     author_info = get_author_home_page.AuthorInfo(paper_title, 0)

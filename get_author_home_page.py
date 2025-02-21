@@ -18,7 +18,7 @@ class AuthorInfo():
     def __init__(self, paper_title, limit=10):
         self.paper_title = paper_title
         input_path = f"./data/{self.paper_title}_step1.json"
-        with open(input_path) as f:
+        with open(input_path, encoding='utf-8') as f:
             papers = json.load(f)
         authors = []
         for paper in papers:

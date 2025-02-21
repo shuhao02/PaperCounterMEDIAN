@@ -21,7 +21,7 @@ Before using this project, please ensure the following:
    - Register an account at [serper.dev](https://serper.dev/).  
    - Obtain your API key from your account.  
    - Set your `api_key` in the script by replacing the placeholder in the following line:  
-     [get_author_home_page.py - Line 60](https://github.com/shuhao02/PaperCounterMEDIAN/blob/9f81d9e3aac27a09b60bae6269816dd14b66db06/get_author_home_page.py#L60).  
+     [get_author_home_page.py - Line 60](https://github.com/shuhao02/PaperCounterMEDIAN/blob/main/get_author_home_page.py#L60).  
      Example:  
      ```python
      api_key = "your_api_key_here"

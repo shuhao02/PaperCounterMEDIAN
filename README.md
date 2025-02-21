@@ -2,6 +2,8 @@
 
 This project is a tool for ***traditional performing arts*** in MEDIAN Lab, which allows you to quickly generate slides based on a given paper title.
 
+Note that the generated contents should be carefully double-checked, some unavoidable mistakes still exist (e.g. wrong personal page).
+
 ## Prerequisites
 
 Before using this project, please ensure the following:

@@ -2,6 +2,30 @@
 
 This project is a tool for ***traditional performing arts*** in MEDIAN Lab, which allows you to quickly generate slides based on a given paper title.
 
+## Prerequisites
+
+Before using this project, please ensure the following:
+
+1. **Python Installation**:  
+   Make sure Python is installed on your system. You can download it from [python.org](https://www.python.org/).
+
+2. **Install Dependencies**:  
+   Install the required dependencies by running the following command in your terminal:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **API Key Setup**:  
+   - Register an account at [serper.dev](https://serper.dev/).  
+   - Obtain your API key from your account.  
+   - Set your `api_key` in the script by replacing the placeholder in the following line:  
+     [get_author_home_page.py - Line 60](https://github.com/shuhao02/PaperCounterMEDIAN/blob/9f81d9e3aac27a09b60bae6269816dd14b66db06/get_author_home_page.py#L60).  
+     Example:  
+     ```python
+     api_key = "your_api_key_here"
+     ```
+
+
 ## Steps to Generate Slides
 
 1. Open the `create_slide.py` file and update the `paper_title` variable with the title of your paper.
@@ -12,14 +36,6 @@ This project is a tool for ***traditional performing arts*** in MEDIAN Lab, whic
     ```
 
 That's it! The script will generate slides based on the input.
-
-## Prerequisites
-
-- Ensure Python is installed on your system.
-- Install any required dependencies by running:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Contributing
 

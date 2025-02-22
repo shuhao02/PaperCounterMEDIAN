@@ -48,5 +48,5 @@ We welcome contributions! Feel free to submit issues or pull requests to improve
 This project was developed by:
 - [Weisen Jiang](https://github.com/ws-jiang)
 - [Shuhao Chen](https://github.com/shuhao02)
-- [Zhuang Zhan](https://github.com/zwebrain)
+- [Zhan Zhuang](https://github.com/zwebrain)
 
